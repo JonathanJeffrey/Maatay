@@ -1,0 +1,92 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.middleSection {
+    margin: 100px 100px 25px 100px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+#mtlogo {
+    height: 25px;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+#maataylogo {
+    width: 250px;
+    margin: 0 100px 25px 100px;
+}
+
+#yerbaMate {
+    margin: 0 0 25px 0;
+}
+
+.bodyText {
+    font-family: "Work Sans", sans-serif;
+    font-size: medium;
+    color: #421D21;
+}
+
+#pureLeafP {
+    margin-top: 25px;
+}
+
+.signUpSection {
+    margin: 0 100px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.signUpForm {
+    display: flex;
+    width: 100%;
+}
+
+#emailInput {
+    border: none;
+    border-bottom: 1px solid #421D21;;
+    outline: none;
+    background: none;
+    width: 100%;
+}
+
+#arrowButton {
+     border: none;
+    outline: none;
+    background: none; 
+    color: #421D21;
+}
+
+input::placeholder {
+  font-family: "Work Sans", sans-serif;
+    font-size: medium;
+    color: #421D21;
+}
